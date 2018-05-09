@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id = "app">
+
+        <div>{{str.split(' ').reverse().join(' ')}}</div>
+        <div>{{cptStr}}</div>
+        <!-- <div>{{bl ? alert('false'):alert('true')}}</div> -->
+    </div>
+</body>
+ <script>
+    let vm = new Vue({
+        el:'#app',
+        data:{
+            num:110,
+            bl:false,
+            str:"i love you",
+            fn:function(){
+                alert('ok')
+            }
+        },
+        computed:{
+            cptStr:function(){
+                return this.str.split(' ').reverse().join(' ')
+            }
+        }
+
+    });
+ 
+ </script>
+</html>

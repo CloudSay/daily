@@ -1,0 +1,81 @@
+
+header img{width:100%;}
+
+
+.banner{border:#e5e5e5 solid 1px;position: relative; }
+.banner .left {float:left;overflow: hidden;width:150px;height:304px;}
+.banner>.left>ul>li{border:#e5e5e5 solid 1px;height:32px;line-height: 30px;text-align: center;}
+ .l_list li a{font-size: 14px;margin: 0 10px;}
+
+.link li a{font-size:12px;margin: 0 2px;border-right: #666 solid 1px;}
+.link li a:last-child{border-right:none;}
+
+.outbox{display:none;padding:10px;position: absolute;top:0;left:150px;height:304px;width:400px;z-index: 9;background: #f3f9e6;}
+.r_text{font-size:14px;color:#5c5d59;width:250px;}
+.r_text h3{text-align: left;border-bottom: 1px #999 solid;padding-bottom:10px;width:240px;}
+.tab_a{overflow: hidden;}
+.tab_a a{float:left;margin: 10px 5px;font-size: 12px;}
+.l_img{float: right;}
+.l_img img{width:150px;}
+.l_img img:nth-child(2){margin: 2px 0;}
+.center{width: 951px;height: 304px;float:left;position: relative;}
+			.center .imgbox{width: 100%;height: 100%;position: absolute;overflow: hidden;}
+			.imgbox>div{position: absolute;width: 100%;height: 100%;left: 951px;}
+			.imgbox>div:nth-child(1){left: 0;}
+.l_box{position: absolute;right:0;top:0;height:304px;}
+.l_box img{width:140px;margin:8px 10px;}		
+			.center .items{position: absolute;bottom: 0;left:450px;}
+			.center .items span{float:left;width:20px;height:20px;border-radius:50%;background: #fff;margin:5px;}
+	
+.right{float:left;height:304px;background: #f3f9e6;}
+.right dl{height:100px;width:109px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.right dl dd{text-align: center;margin-top: 5px;}
+
+.content {text-align: center;color:#333}
+.tit{margin-top: 40px;}
+.tit h1{height:50px;float: left;color:#ff686f;font-size:25px;}
+.tit span {heigth:50px;float: left;font-size: 14px;padding-top: 12px;}
+.tit strong{font-size: 28px;heigth:50px;float: left;margin-left: 10px;color:#ff686f;}
+.tit ul{float:right}
+.tit ul li{float:right;height:50px;line-height: 50px;text-align: center;margin:0 10px;}
+.tit ul li:first-child a{display:block;background: #ff404c;color:white;height: 30px;width:100px;margin-top: 10px;line-height: 30px;}
+.goods-banner{width: 1210px;height: 200px;margin: 0 auto;position: relative;}
+			.goods-banner .goodbox{width: 100%;height: 100%;position: absolute;overflow: hidden;}
+			.goodbox div{position: absolute;width: 100%;height: 100%;left: 1210px;display: flex;justify-content: space-between;}
+			.goodbox div:nth-child(1){left: 0;}
+			.b_prev,.b_next{position: absolute;width: 40px;height: 40px;background: rgba(100,100,100,0.4);text-decoration: none;text-align: center;line-height: 40px;font-size: 30px;color: #fff;top: 75px;cursor: pointer;}
+			.b_prev{left: 0;}
+			.b_next{right: 0;}
+.goodbox div dl{position: relative;width:392px;height:200px;}			
+.goodbox div dl dd{position:absolute ;bottom:0;left:0;height:30px;text-align: center;line-height: 30px;background: rgba(100,100,100,0.5);z-index: 5;width:392px;}
+.goodbox div dl dd a{font-size: 14px;color:#fff;}		
+.brand {width:100%;}
+.brand li{float: left;}
+.brand li img{width:120px;}	
+.m_list{width: 1210px;height: 260px;margin: 0 auto;position: relative;}
+			.m_list .m_banner{width: 100%;height: 100%;position: absolute;overflow: hidden;}
+			.m_banner div{position: absolute;width: 100%;height: 100%;left: 1210px;display: flex;justify-content: space-between;}
+			.m_banner div dl {width:185px;}
+			.m_banner div dl dt img{width:185px;}	
+			.m_banner div dl dd span{font-size:18px;color:#f00;width:185px;text-align: left;}			
+			.m_banner div dl dd p{font-size:12px;color:#ccc;overflow:hidden;width:185px;text-align: left;}
+			.m_banner div:nth-child(1){left: 0;}
+			.prev2,.next2{position: absolute;width: 40px;height: 40px;background: rgba(100,100,100,0.4);text-decoration: none;text-align: center;line-height: 40px;font-size: 30px;color: #fff;top: 75px;cursor: pointer;}
+			.prev2{left: 0;}
+			.next2{right: 0;}
+
+
+
+
+.h_goods{display: flex;justify-content: space-between;}	
+.h_goods img{flex: 1;}
+
+.u_list{width: 1210px;margin:0 auto;text-align: left;display: flex;justify-content: space-between;flex-wrap:wrap;}
+.u_list dl {float:left;width:283px;font-size:14px;}
+.u_list dl dt img{width:283px;}
+.u_list dl dd p{display:  block;width:243px;overflow: hidden;margin:10px 20px;}
+.r_left{float: left;}
+.r_right{float: right;color:#666;}	
+.p_right{float: right;font-size:14px;color:#666;overflow:hidden}			
+.p_left{float: left;font-size:16px;color:#f00;}	
+

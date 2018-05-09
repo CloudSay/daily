@@ -1,0 +1,32 @@
+export default {
+	SHOW_LOADING:(state)=>{
+    state.Sloading=true;
+  },
+  HIDE_LOADING:(state)=>{
+  	state.Sloading=false;
+  },
+  SHOW_NAV:(state)=>{
+    state.Snavbar=true;
+  },
+  HIDE_NAV:(state)=>{
+  	state.Snavbar=false;
+  },
+  SHOW_TOP:(state)=>{
+  	state.StopNav=true;
+  },
+  HIDE_TOP:(state)=>{
+  	state.StopNav=false;
+  },
+  SHOW_LINK:(state)=>{
+  	state.SlinkNav=true;
+  },
+  HIDE_LINK:(state)=>{
+  	state.SlinkNav=false;
+  },
+  SHOW_FOOT:(state)=>{
+  	state.Sfootbar=true;
+  },
+  HIDE_FOOT:(state)=>{
+  	state.Sfootbar=false;
+  },
+};

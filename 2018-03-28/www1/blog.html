@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="晚九 - 晚九.com" />
+<meta name="copyright" content="晚九 - 晚九.com" />
+<title>晚九 - 3503716</title>
+<link href="css/index.css" rel="stylesheet" />
+<script src="./ajax.js"></script>
+<script>
+	window.onload=function(){
+		//登录 get
+		//http://localhost:8002/ajx?username=xxx&passowrd=xxx&act=login|reg
+		sub1.onclick=function(){
+			ajax({
+				// url:'http://localhost:8002/ajx'
+				url:'/ajx',
+				data:{
+					username:user.value,
+					password:pass.value,
+					act:'login'
+				},
+				success:function(res){
+					console.log('前端接收到了nodejs处理之后的数据',res);
+				}
+			})
+		};
+		//注册 post
+		sub2.onclick=function(){
+			ajax({
+				// url:'http://localhost:8002/ajx'
+				url:'/ajx',
+				data:{
+					username:user.value,
+					password:pass.value,
+					act:'reg'
+				},
+				type:'post',
+				success:function(res){
+					console.log('前端接收到了nodejs处理之后的数据',res);
+				}
+			})
+		};
+	}
+</script>
+</head>
+
+<body>
+	<!--头部 begin-->
+	<div id="header">
+		<div class="box">
+			<h1 id="logo">
+				<a href="#">晚九</a>
+				<span>PHOTO专注于让学员获得快乐的学习体验并找到高薪工作的培训</span>
+			</h1>
+		</div>
+
+		<div class="nav">
+			<ul class="box nav-ul">
+				<li><a href="/">首 页</a></li>
+				<li><a href="/blog.html">博 客</a></li>
+				<li><a href="/photo.html">照 片</a></li>
+				<li><a href="/about.html">关于我们</a></li>
+				<li><a href="/bulala.html">友情链接</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--头部 end-->
+	
+	<!--内容 begin-->
+	<div class="container box">
+		<!--左边 begin-->
+		<div class="left left-bar">
+			<ul class="text-list" id="article">
+				<form action="http://localhost:8002/from" method="get">
+					用户名: <input type="text" value="" name="username"><br>
+					密码: <input type="text" value="" name="password"><br>
+					<input type="submit" value="GET提交">
+				</form>
+				<hr>
+				<form action="http://localhost:8002/from" method="post">
+					用户名: <input type="text" value="" name="username"><br>
+					密码: <input type="text" value="" name="password"><br>
+					<input type="submit" value="POST提交">
+				</form>
+				<hr>
+					用户名: <input type="text" value="" id="user"><br>
+					密码: <input type="text" value="" id="pass"><br>
+					<input type="button" id="sub1" value="ajax get登录">
+					<input type="button" id="sub2" value="ajax post注册">
+					<hr>
+				<form action="http://localhost:8002/upload" method="post" enctype="multipart/form-data">
+						用户名: <input type="file" name="icon"><br>
+						<input type="submit" value="上传头像">
+				</form>
+			</ul>
+		</div>
+		<!--左边 end-->
+		<!--右边 begin-->
+		<div class="right right-bar">
+			<div class="search"></div>
+			
+			<div class="right-cont">
+				<div>
+					<h4><a href="#">自我介绍</a></h4>
+					<p>自我介绍怎么写?自我介绍频道提供面试自我介绍范文。自我介绍怎么写?自我介绍频道提供面试自我介绍范文。</p>
+				</div>
+				
+				<div>
+					<h4><a href="#">热门点击</a></h4>
+					<ul>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+					</ul>
+				</div>
+				
+				<div>
+					<h4><a href="#">热门点击</a></h4>
+					<ul>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+					</ul>
+				</div>
+				
+				<div>
+					<h4><a href="#">热门点击</a></h4>
+					<ul>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+						<li><a href="#">李鹏书作回忆父母披露父亲就义过程(图)</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<!--右边 end-->
+		<div class="clear"></div>
+	</div>
+	<!--内容 end-->
+	
+	<!--尾部 begin-->
+	<div id="footer">
+		<p>Copyright alex Corporation, All Rights Reserved</p>
+	</div>
+	<!--尾部 end-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

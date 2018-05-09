@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="iptUserName"><br>
+        <textarea cols="30" rows="10" v-model="iptContent">{{iptContent}}</textarea><br>
+        <input type="button" value="提交" @click='add'>
+        <ul>
+            <li v-for="(item,index) of list">
+                <span>{{item.id}}-----{{item.content}}</span>-------<i>{{item.username}}</i>
+                <a href="#" @click= 'del(index)'>删除</a>
+                <a href="#" @click= 'check(index)'>修改</a>
+                
+            </li>
+        </ul>
+        <input type="button" value="清空" @click='removeAll'>
+        <div v-show = "bl" >
+            <input type="text" v-model="cheUserName"><br>
+            <textarea cols="30" rows="10" v-model="cheContent">{{iptContent}}</textarea><br>
+            <input type="button" value="确定" @click='check1'>
+        </div>
+    </div>
+</body>
+<script>
+    let vm = new Vue({   // VM
+        // key选项：value
+        // el:'选择器'
+        el:'#app',
+        
+        data:{// moder M
+         index:0,
+         bl:false,
+         iptUserName:'',
+         iptContent:'',
+         cheUserName:'',
+         cheContent:'',
+         list:[
+             
+         ]
+        },
+        methods:{ 
+            add:function(){
+                this.list.push({
+                    id:this.list.length+1,
+                    username:this.iptUserName,
+                    content:this.iptContent,
+                })
+            },
+            del:function(index){
+                this.list.splice(index,1)
+            },
+            removeAll:function(){
+                this.list=[]
+            },
+            check:function(index){
+                this.index= index;
+               this.cheUserName  = this.list[index].username;
+               this.cheContent  = this.list[index].content;
+                this.bl=!this.bl;
+            },
+            check1:function(){
+                this.list[this.index].username = this.cheUserName;
+                this.list[this.index].content = this.cheContent;
+                this.bl=!this.bl;
+            }
+        }
+    });
+</script>
+</html>

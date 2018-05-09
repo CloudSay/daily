@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+		<style type="text/css">
+			*{margin: 0;padding:0;}
+			body,html，#app{height:100%;width:100%;}
+			#box{width:500px;height:360px;border:1px #000 solid;margin: auto ;position: absolute;top:0;left:0;right:0;bottom:0;z-index: 999;background: #fff;}
+			#box p {margin-left: 50px;margin-bottom:20px ;overflow: hidden;margin-top: 5px;}
+			#close {float: right;height:50px;width:50px;font-size: 24px;}
+			#texta{width:400px;height:200px;}
+			#title{background: blue;margin: 0;height: 50px;line-height: 50px;text-align: center;}
+			#tit{font-size:26px;font-weight: bold;color:#fff;}
+			#btn1,#btn2{height:30px;width:100px;background: #fff;box-shadow:0 0 10px #aaa;margin-left:50px;}
+			#btn1:hover,#btn2:hover {background:orange}
+			#shdow{height:100%;width:100%;background: #000000;opacity:0.5;position: absolute;top:0;}
+			#rest1{float: left;}
+			#cont{float: left;margin-left: 200px;}
+        </style>
+        <script src="./js/vue.js"></script> 
+	</head>
+	<body>
+        <div id="app">
+            <div>
+                搜索框：<input type="text" v-model="iptSearch" @input='search'><br>
+                <ul class="list-unstyled" v-show='bl3'>
+                        <li class="media" v-for="val of cptArr">
+                            <img class="mr-3" src="" :alt="val.id">
+                            <div class="media-body">
+                            <h5 class="mt-0 mb-1">{{val.username}}</h5>
+                            {{val.content}}
+                            </div>
+                        </li>
+                </ul>
+            </div>
+            
+		<input type="button" name="" id="rest1" value="添加留言" @click='show'  />
+		<ul id="cont">
+            <li>全部留言</li>
+            <li v-for="(item,index) of list">
+                    <span>{{item.id}}-----{{item.content}}</span>-------<i>{{item.username}}</i>
+                    <a href="#" @click= 'del(index)'>删除</a>
+                    <a href="#" @click= 'check(index)'>修改</a>
+            </li>
+        </ul>
+        <div v-show = "bl" >
+                <input type="text" v-model="cheUserName"><br>
+                <textarea cols="30" rows="10" v-model="cheContent">{{iptContent}}</textarea><br>
+                <input type="button" value="确定" @click='check1'>
+         </div>
+		<div id="box" v-show='bl2'> 
+			发布人： <input type="text" v-model="iptUserName"><br>
+			<p>请输入您要发布的内容：</p>
+			<textarea cols="30" rows="10" id="texta" v-model="iptContent">{{iptContent}}</textarea><br>
+			<p> <input type="button" value="提交" @click='add' id="btn2"></p>
+		</div>
+		<div id="shdow" v-show = 'bl2'>
+			
+        </div>
+        
+    </div>
+	</body>
+    <script type="text/javascript">
+    let vm = new Vue({   // VM
+        // key选项：value
+        // el:'选择器'
+        el:'#app',
+        
+        data:{// moder M
+         index:0,
+         bl:false,
+         bl2:false,
+         bl3:false,
+         iptUserName:'',
+         iptContent:'',
+         cheUserName:'',
+         cheContent:'',
+         iptSearch:'',
+         list:[
+             
+         ]
+        },
+        methods:{
+            add:function(){
+                this.list.push({
+                    id:this.list.length+1,
+                    username:this.iptUserName,
+                    content:this.iptContent,
+                });
+                this.bl2=false;
+            },
+            del:function(index){
+                this.list.splice(index,1)
+            },
+            removeAll:function(){
+                this.list=[]
+            },
+            check:function(index){
+                this.index= index;
+               this.cheUserName  = this.list[index].username;
+               this.cheContent  = this.list[index].content;
+                this.bl=!this.bl;
+            },
+            check1:function(){
+                this.list[this.index].username = this.cheUserName;
+                this.list[this.index].content = this.cheContent;
+                this.bl=!this.bl;
+            },
+            show:function(){
+                this.bl2=true;
+            },
+            search:function(){
+                this.bl3= true;
+            }
+            
+        },
+        computed:{
+            cptArr:function(){
+                let result = [];
+                // this.arr.forEach((val,index) => {
+                //     if (val.indexOf(this.iptSearch) != -1){
+                //         result.push(val)
+                //     }
+                // });
+                this.list.forEach(function(val,index){
+                    let str = val.username +val.content;
+                    if (str.indexOf(this.iptSearch) != -1){
+                        result.push(val)
+                    };
+                }.bind(this));
+                return result
+            }
+        }
+
+    });
+		
+	</script>
+</html>

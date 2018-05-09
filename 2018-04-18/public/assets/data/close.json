@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"src": "/assets/images/banner.jpg",
+		"alt": "远方有一个地方,那里种有我们的梦想",
+		"time":"2375-09-26"
+		},{
+		"id": "2",
+		"src": "../assets/images/news.jpg",
+		"alt":"某天 也许会相遇 ,相遇在这个好地方",
+		"time":"2375-09-26"
+		},{
+		"id": "3",
+		"src": "/assets/images/banner.jpg",
+		"alt":"不要太担心 ,只因为我相信",
+		"time":"2375-09-26"
+		},{
+		"id": "4",
+		"src": "../assets/images/news.jpg",
+		"alt":"终会走过这条遥远的道路",
+		"time":"2375-09-26"
+	}
+]
+
+
+

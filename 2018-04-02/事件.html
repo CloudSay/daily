@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <img :src="url" alt="" v-show = "bl">
+        <!-- <input type="button" value="按钮" v-on:原生事件="函数"> -->
+        <input type="button" value="显示隐藏" v-on:click="show">
+        <input type="button" value="修改图地址" v-on:click="show2">
+        <!-- <input type="button" value="修改图地址" v-on:click="show3('https://cn.vuejs.org/images/logo.png')"> -->
+        <input type="button" value="修改图地址" @click="show3('https://cn.vuejs.org/images/logo.png')">
+    </div>
+</body>
+<script>
+    let vm = new Vue({ // VM
+        // key选项：value
+        // el:'选择器'
+        el:'#app',
+        data:{// moder M
+          bl:false,
+          url:'https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png'
+        },
+        methods:{
+            show:function(){
+                console.log(this.bl); 
+                this.bl=!this.bl
+            },
+            show2:function(){
+                // console.log(this == vm); 
+                this.url ="https://cn.vuejs.org/images/logo.png"
+            },
+            show3:function(arg){
+                // console.log(this == vm); 
+                this.url =arg
+            }
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>register</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<div class="top count">
+				<img src="img/logo.jpg" />
+				<span>
+				   已经有团800或折800帐号了？
+				<a href="Login">去登录</a>
+				</span>
+		</div>
+		<div class="center count">
+			
+			<form action="register-test" method="post">
+				<p>
+					<span >
+						手机号：
+					</span>
+					<input type="text" value="" id="txt"  name="usename"/>
+					<span id="txt_n">
+						
+					</span>
+				</p>
+				<p>
+					<span >
+						密码：
+					</span>
+					<input type="password" value=""  id="pass" name="password"/>
+					<span id="pass_n">
+						
+					</span>
+				</p>
+				<p>
+					<span>
+						确认密码：
+					</span>
+					<input type="password" value="" id="a_pass"/>
+					<span id="a_pass_n">
+						
+					</span>
+				</p>
+				<p id="v-code">
+					<span>
+						验证码：
+					</span>
+					<input type="number"  id="code"/>
+					<span id="num">0000</span>
+					<span id="code_n">
+						
+					</span>
+				</p>
+				<p class="check">
+				   <input type="checkbox" id="check" /> 我已阅读并接受折800的<a href="">《用户服务协议》</a><br />
+				</p>
+				   <input type="submit" value="注册" class="btn"/>
+				
+			</form>
+			<div class="f-left">
+				<p>还可以使用这些账号登录</p>
+				<p>
+				<span>QQ登录</span>
+				<span>百度登录</span>
+				</p>
+				<p>
+				<span id="dis">淘宝账号</span>
+				<span id="dis">人人账号</span>
+				</p>
+			</div>
+		</div>
+		<div class="buttom">
+			<p><a href="">京ICP证120075号</a>  京ICP备10051110号-5  <a href="">京公网安备11010502025623 </a> 统一社会信用代码 91110105571298269B  食品流通许可证SP1101051510352397 </p>
+			<p>出版物经营许可证 新出发京零字第朝160018号  Copyright©2011-2015 版权所有 ZHE800.COM</p>
+			<div>
+				<img src="img/login0_03.jpg"/>
+				<img src="img/login0_05.jpg"/>
+				<img src="img/login0_07.jpg"/>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#num").on("click",function(){
+			var sum="";
+			var i=0;
+			while(i<4){
+				var a=parseInt(Math.random()*74+48)
+				if (48<=a&&a<=57){
+					sum+=String.fromCharCode(a);
+					i++;
+				}
+			}
+			$("#num").html(sum);
+		})
+		var onOff1 =false;
+		var onOff2 =false;
+		var onOff3 =false;
+		var onOff4 =false;
+		$("#txt").focus(()=>{
+			$("#txt").val("")
+			$("#txt_n").css({color:"#aaa"})
+			$("#txt_n").html("请输入手机号码");
+		})
+		$("#txt").blur(function () {
+			if(!isNaN(Number($("#txt").val()))){
+				onOff1=true;
+			}else{
+				$("#txt_n").css({color:"#f00"})
+				$("#txt_n").html("手机号格式不正确，请重新输入")
+//				alert();
+			}
+		})
+		$("#pass").focus(()=>{
+			$("#pass").val("")
+			$("#pass_n").css({color:"#aaa"})
+			$("#pass_n").html("请输入密码")
+		})
+		$("#pass").blur(function () {
+			$("#pass").val("")
+			var str = $("#pass").val();
+			var reg=/^[a-z0-9_-]{6,24}$/;
+			if(reg.test(str)){
+				onOff2=true;
+			}else{
+				$("#pass_n").css({color:"#f00"})
+				$("#pass_n").html("请输入6-24位字母，数字，半角符")
+			}
+		})
+		$("#a_pass").focus(()=>{
+			$("#a_pass").val("")
+			$("#a_pass_n").css({color:"#aaa"})
+			$("#a_pass_n").html("请重复输入密码")
+		})
+		$("#a_pass").blur(function (){
+			if ($("#a_pass").val() == $("#pass").val()){
+				onOff3=true;
+			}else{
+				 $("#a_pass_n").css({color:"#f00"})
+				$("#a_pass_n").html( "重复密码不一致")
+			}
+		}) 
+		$("#code").focus(()=>{
+			$("#code").val("")
+			$("#code_n").css({color:"#aaa"})
+			$("#code_n").html("请输入验证码")
+		})
+		$("#code").blur(function () {
+			if($("#code").val() == $("#num").html()){
+				onOff4=true;
+			}else{
+				 $("#code_n").css({color:"#f00"})
+				
+				$("#code_n").html("验证码不正确，请重新输入")
+//				alert();
+			}
+		}) 
+		$("#num").trigger("click")
+		$("input[type=button]").click(function(){
+			if(onOff1&&onOff2&&onOff3&&onOff4&&$("#check").is(':checked')){
+				$.ajax({
+					type:"post",
+					url:"http://datainfo.duapp.com/shopdata/userinfo.php",
+					data:{
+						status:"register",
+						userID:$("input[type=text]").val(),
+						password:$("input[type=password]").val()
+					}
+				}).then(function(a){
+					if(a == 1){
+						alert("注册成功")
+						open("Login.html")
+					}else if(a == 0){
+						alert("用户名重复")
+					}else if(a == 2){
+						alert("数据库报错")
+					}
+				})
+			}
+		})
+		
+	</script>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>微博</title>
+  <link href="style/weibo.css" rel="stylesheet" type="text/css" />
+  <script src="./js/vue.js"></script>
+  <script src="./js/vue-resource.js"></script>
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+  <script>
+  window.onload=function(){
+    Vue.filter('date',function(data){
+      let fillzero=(n)=>{return n<10?'0'+n:''+n};
+      var d=new Date();
+      d.setTime(data*1000);
+      var y = d.getFullYear();
+      var m = d.getMonth()+1;
+      var date = d.getDate();
+      var h = d.getHours();
+      var min = d.getMinutes();
+      var s = d.getSeconds();
+      return `${y}年${fillzero(m)}月${fillzero(date)}日 ${fillzero(h)}:${fillzero(min)}:${fillzero(s)}`;
+    });
+
+    let vm=new Vue({
+      el:'.znsArea',
+      data:{
+        ipt:'',
+        list:[
+          // {id:1,time:xxxx,content:xxx,acc:0,ref:0}
+        ]
+      },
+      methods:{
+        //weibo.php?act=add&content=xxx	添加一条 
+        //{error:0, id: 新添加内容的ID, time: 添加时间}
+        add(){
+          this.$http({
+            url:'http://localhost:80/weibo.php',
+            params:{
+              act:'add',
+              content:this.ipt
+            }
+          }).then(
+            res => {
+              if(res.body.error==0){
+                this.list.push({
+                  id:res.body.id,
+                  time:res.body.time,
+                  content:this.ipt,
+                  acc:0,
+                  ref:0
+                })
+              }else{
+
+              }
+            }
+          )
+        },
+
+        //weibo.php?act=get&page=1		获取一页数据
+				//返回：[{id: ID, content: "内容", time: 时间戳, acc: 顶次数, ref: 踩次数}, {...}, ...]
+        getData(n){
+          this.$http({
+            url:'http://localhost:80/weibo.php',
+            params:{
+              act:'get',
+              page:n
+            }
+          }).then(
+            res => this.list=res.body
+          )
+        }
+      },
+      created(){
+        this.getData(1);
+      }
+    })
+    // vm.getData(1);//调用方法
+    // vm.getPageCount(1);//调用方法
+  }
+  </script>
+</head>
+
+<body>
+  <div class="znsArea">
+    <!-- {{getData(1)}} -->
+    <!--留言-->
+    <div class="takeComment">
+      <textarea name="textarea" v-model="ipt" class="takeTextField" id="tijiaoText"></textarea>
+      <div class="takeSbmComment">
+        <input type="button" class="inputs" value="" @click="add" />
+        <span>(可按 Enter 回复)</span>
+      </div>
+    </div>
+    <!--已留-->
+    <div class="commentOn" v-cloak>
+      <div class="noContent" v-show="list.length==0">暂无留言</div>
+      <div class="messList" v-for="(item,index) of list" :key="item.id">
+        <div class="reply">
+          <p class="replyContent">{{item.content}}</p>
+          <p class="operation">
+            <span class="replyTime">{{item.time|date}}</span>
+            <span class="handle">
+              <a href="javascript:;" class="top">{{item.acc}}</a>
+              <a href="javascript:;" class="down_icon">{{item.ref}}</a>
+              <a href="javascript:;" class="cut">删除</a>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="page">
+        <a href="javascript:;" class="active">1</a>
+        <a href="javascript:;">2</a>
+        <a href="javascript:;">3</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

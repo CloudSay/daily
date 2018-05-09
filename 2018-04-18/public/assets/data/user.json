@@ -1,0 +1,14 @@
+[
+   {
+	 "auth":true,
+	 "hasAuthed":false,
+	 "data":{
+		 "username":"alex",
+		 "src":"assets/images/user_photo.jpg",
+		 "ID":"18355060128",
+		 "time":"2018-04-23",
+		 "class":"VIP1",
+		 "integral":"1000"
+		 }
+	}
+ ]

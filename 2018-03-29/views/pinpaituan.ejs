@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>brand</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pinpai.css"/>
+	<body>
+		<% include ./header %>
+		<div class="content">
+			<div class="list count">
+				<ul class="brand_nav">
+					<li>全部品牌</li>
+					<li><a href="">中老年</a></li>
+					<li><a href="">运动</a></li>
+					<li><a href="">家纺</a></li>
+					<li><a href="">美妆</a></li>
+					<li><a href="">配饰</a></li>
+					<li><a href="">数码家电</a></li>
+					<li><a href="">内衣</a></li>
+					<li><a href="">男装</a></li>
+					<li><a href="">美食</a></li>
+					<li><a href="">母婴儿童</a></li>
+					<li><a href="">居家</a></li>
+					<li><a href="">鞋包</a></li>
+					<li><a href="">女装</a></li>
+				</ul>
+				<span class="brand_link">
+					<a href="#">品牌排行榜</a>
+				</span>
+			</div>
+			<div class="hot count">
+				<div class=" tit">
+					<h1>热卖品牌</h1>
+				</div>
+				<div class="brand_banner">
+					<ul class="brand">
+						<li>
+							<a href="">
+								<img src="img-index/brand1.jpg"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="all count tit">
+				<div class="tit">
+					<h1>全部品牌</h1>
+				</div>
+				<div class="u_list">
+					<% for(let i=0;i<close.length;i++) { %>
+						<dl>
+							<dt>
+								<img src="<%= close[i].src %>" date_index="<%= i %>"/>
+							</dt>
+							<dd>
+								<p><a href="#" class="r_left"><%= close[i].name1 %></a></p>
+								<p><a href="#" class="p_left"><%= close[i].nmae2 %></a><span class="r_right"><%= close[i].name3 %></span><a href="#"class="p_right">收藏品牌</span></a>
+							</dd>
+						</dl>
+					<% } %>
+				</div>
+			</div>
+		</div>
+		<% include ./footer %>
+	</body>
+	<script src="js/jquery-2.1.0.js"text/javascript" charset="utf-8"></script>
+	<script src="js/jQuary.banner2.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pinpai.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+</html>

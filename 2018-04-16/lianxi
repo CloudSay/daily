@@ -1,0 +1,25 @@
+import React,{Component} from "react";
+import ReactDom from 'react-dom';
+
+class APP extends Component{
+    state ={
+      msg1:'APP组件',
+      msg2:'APP数据2',
+      strong:'<strong>虚胖</strong>'
+    };
+    constructor(){
+      super();
+      this.state.msg1 = 'APP组件~~'
+
+    }
+    render(){
+      return (
+        <div>
+          <h3>{this.state.msg1}</h3>
+          <div>{this.state.msg2}</div>
+          <div dangerouslySetInnerHTML ={{__html :this.state.strong}}></div>
+        </div>
+      )
+    }
+
+}

@@ -1,0 +1,20 @@
+.content{background:#efefef}
+.list{ padding-top:20px;}
+.brand_nav{float:left;overflow: hidden;}
+.brand_nav li{float:left;text-align: center;line-height:40px;}
+.brand_nav li a{display: block;height:40px;width:60px;text-align: center;line-height:40px;}
+.brand_link {float:right;line-height: 40px;}
+
+.banner_banner{overflow: hidden;}
+.brand {width:100%;}
+.brand li{float: left;}
+.brand li img{width:120px;}	
+
+.u_list{width: 1210px;margin:0 auto;text-align: left;display: flex;justify-content: space-between;flex-wrap:wrap;}
+.u_list dl {float:left;width:283px;font-size:14px;}
+.u_list dl dt img{width:283px;}
+.u_list dl dd p{display:  block;width:243px;overflow: hidden;margin:10px 20px;}
+.r_left{float: left;}
+.r_right{float:left;color:#666;font-size:14px;text-decoration: line-through;}	
+.p_right{float: right;font-size:14px;color:#666;overflow:hidden}			
+.p_left{float: left;font-size:16px;color:#f00;}	

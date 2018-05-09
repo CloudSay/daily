@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+			<div class="top count">
+				<img src="img/logo.jpg" />
+				<span>
+				还没有账号？
+				<a href="register">立即注册</a>
+				</span>
+			</div>
+			<div class="center count">
+				<img src="img/login_03.jpg"/>
+				<form action="/Login-test" method="post">
+					<p>
+						<input type="text" value="" placeholder="请输入用户名" name="username"/>
+					</p>
+					<p>
+						<input type="password" value="" placeholder="请输入密码" name="password"/>
+					</p>
+					<p>
+						<input type="submit" value="登录"/><a href="#">忘记密码？</a>
+					</p>
+				</form>
+			</div>
+			<div class="buttom">
+				<p><a href="">京ICP证120075号</a>  京ICP备10051110号-5  <a href="">京公网安备11010502025623 </a> 统一社会信用代码 91110105571298269B  食品流通许可证SP1101051510352397 </p>
+				<p>出版物经营许可证 新出发京零字第朝160018号  Copyright©2011-2015 版权所有 ZHE800.COM</p>
+				<div>
+					<img src="img/login0_03.jpg"/>
+					<img src="img/login0_05.jpg"/>
+					<img src="img/login0_07.jpg"/>
+				</div>
+
+
+			</div>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script type="text/javascript">
+		$("input[type=button]").click(function(){
+			$.ajax({
+				type:"post",
+				url:"/Login-test",
+				data:{
+					status:"login",
+					username:$("input[type=text]").val(),
+					password:$("input[type=password]").val()
+				},
+				success:function(a){
+					console.log(a)
+					if(typeof a == "object"){
+						if($("input[type=text]").val() != "" ){
+							open("index.html");
+						}
+					
+					}else if(a == 2){
+						alert("用户名和密码不符")
+					}else if(a == 0){
+						alert("用户名不存在")
+					}
+					// $.cookie("usename",$("input[type=text]").val())
+					
+				},
+				// error:function(a){
+				// 	console.log(a)
+				// },
+				dataType:"json"
+			});
+		}) -->
+	<!-- </script> -->
+</html>

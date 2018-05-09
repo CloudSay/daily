@@ -1,0 +1,41 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+ul li{list-style: none;} 
+body {}
+a {color:#333; text-decoration:none; }
+html,body{height:100%}
+body{background: #f5f5f5;}
+.count{width:1210px;margin: 10px auto;overflow: hidden;}
+.top {height:70px;}
+.top img{float:left;}
+.top span{float:right;padding-top:40px;font-size: 12px;}
+.top span a{color:#7fcdf5;}
+.center{background: #fff;height:550px;}
+.center form{float:left;width:600px;height:480px;margin-top:50px;margin-right: 100px;}
+.center form p{display:block;height:35px;line-height:35px;margin: 50px 50px;text-align: right;}
+.center form p span{border:none;height:35px;font-size: 18px;}
+.center form p input{border:1px #ccc solid;border-radius:5px;height:35px;width:300px;font-size: 18px;float: right;}
+.center form p:nth-last-child(2){height:30px;line-height: 30px;margin: 10px 0;font-size:12px}
+.center form p:nth-last-child(2) input{width:15px;height:15px;float:none;}
+.center form p:nth-last-child span{display: block;width:100px;height:40px;border:1px #333 solid;}
+.center form p:nth-last-child input{width:100px;height:40px;border:1px #333 solid;}
+.btn{border:none;background: #ef3129;color:white;font-size:18px;width:150px;height:50px;margin-left: 260px;}
+.check{margin-left: 180px;}
+#v-code{text-align:left;margin-left: 175px;}
+#v-code input{float:none;width:180px;}
+#num {float: right;width:90px;height:35px;border:1px #aaa solid;border-radius: 5px;text-align: center;line-height: 35px;;}
+#txt_n,#pass_n,#a_pass_n,#code_n{font-size:12px;color:#aaa;float: right;margin-left: 180px;}
+
+
+.buttom{height:120px;background: #fff;text-align: center;font-size: 12px;color:#aaa;}
+.buttom p{margin:10px 0;}
+.buttom p a{color:#aaa;}
+.buttom div{width:288px;margin:0 auto;height:35px;}
+.buttom img{float:left;margin:10px 2px;}
+.f-left {padding-top:30px;overflow: hidden;}
+.f-left p{margin: 20px auto;text-align: center;overflow: hidden;}
+.f-left p:last-child,.f-left p:nth-child(2){margin-left:80px;}
+.f-left p span{float: left;margin-left:50px;width:100px;height:40px;text-align: center;line-height: 40px;background: #eee;border: 1px #333 solid;}

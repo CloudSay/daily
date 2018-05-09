@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./Css/index.css" />
+  <title>Document</title>
+  <script src="./js/vue.js"></script>
+</head>
+
+<style>
+  .content {
+    background: red
+  }
+</style>
+
+<body>
+
+
+  <div id="app" >
+
+    <hd :bl = "bl" @toParent="getChild"></hd>
+    <wrap :bl = "bl"></wrap>
+  </div>
+
+
+  <template id="hd">
+    <div id="top">
+    	<span id="send" @click='show'></span>
+		</div>
+  </template>
+
+  <template id="wrap">
+    <div id="main">
+			<biao ></biao>
+			<v-form :bl = "bl"></v-form>
+		</div>
+  </template>
+
+  <template id="biao">
+  	<dl class="paper a1">
+        <dt>
+            <span class="username">username</span>
+            <span class="num">No.00001</span>
+        </dt>
+        <dd class="content">欢迎来到content</dd>
+        <dd class="bottom">
+            <span class="time">今天08:30</span>
+            <a href="javascript:;" class="close"></a>
+        </dd>
+    </dl>
+  </template>
+  
+  <template id="form">
+    <div id="send-form" v-show = 'this.bl'>
+	    <p class="title"><span>许下你的愿望</span><a href="javascript:;" id="close"></a></p>
+	    <form action="" name="wish">
+	        <p>
+	            <label for="username">昵称：</label>
+	            <input type="text" name="username" id="username"/>
+	        </p>
+	        <p>
+	            <label for="content">愿望：(您还可以输入&nbsp;<span id="font-num">50</span>&nbsp;个字)</label>
+	            <textarea name="content" id="content"></textarea>
+	            <div id="phiz">
+	                <img src="./Images/phiz/zhuakuang.gif" alt="抓狂" />
+	                <img src="./Images/phiz/baobao.gif" alt="抱抱" />
+	                <img src="./Images/phiz/haixiu.gif" alt="害羞" />
+	                <img src="./Images/phiz/ku.gif" alt="酷" />
+	                <img src="./Images/phiz/xixi.gif" alt="嘻嘻" />
+	                <img src="./Images/phiz/taikaixin.gif" alt="太开心" />
+	                <img src="./Images/phiz/touxiao.gif" alt="偷笑" />
+	                <img src="./Images/phiz/qian.gif" alt="钱" />
+	                <img src="./Images/phiz/huaxin.gif" alt="花心" />
+	                <img src="./Images/phiz/jiyan.gif" alt="挤眼" />
+	            </div>
+	        </p>
+	        <span id="send-btn"></span>
+	    </form>
+	</div>
+  </template>	
+  
+  <script>
+
+    //定义
+    let hd = {  //√
+      data() {
+        return {
+          bl: true,
+        }
+      },
+      props:['bl'],
+      methods:{
+        show(){
+        	console.log(this.bl)
+          this.bl = !this.bl
+          this.$emit('toParent',this.bl)
+        }
+      },
+      template: '#hd'
+    }
+
+    let biao = {
+      template: '#biao'
+    }
+    let form = {
+    	props:['bl'],
+      template: '#form'
+    }
+    let wrap = {  //√
+//    el:'#unknow',
+      name:'abc',
+      template: '#wrap',
+      props:['bl'],
+      methods:{
+        show(ev,arg){
+          console.log(ev,arg);
+        }
+      },
+      components:{
+      	biao:biao,
+      	'v-form':form,
+      }
+    }
+
+
+    new Vue({
+      name: 'app',
+      el: '#app',
+      data: {
+        bl: true
+      },
+      components: {//注册
+        hd, wrap
+      },
+      methods:{
+        getChild(data){
+          console.log(data);
+          this.bl=data;
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>

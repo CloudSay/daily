@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cefcfba1-b670-40f7-b3c9-e3dda11f7b84" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="new">
+      <favorite_root url="file://$PROJECT_DIR$" module="2018-04-17" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src" module="2018-04-17" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/src/App.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/src/index.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/src/App.test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/src/registerServiceWorker.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/.idea" module="2018-04-17" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/2018-04-17.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/inspectionProfiles" module="2018-04-17" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/public" module="2018-04-17" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/public/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/public/favicon.ico" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/public/manifest.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/yarn.lock" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/package.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zns_demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../三阶段2/2018-4-17/作业/2-6.JS简易年历/zns_demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/../../三阶段2/2018-4-17/作业/2-6.JS简易年历/zns_demo.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="341" />
+    <option name="y" value="114" />
+    <option name="width" value="1400" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2018-04-17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-04-17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018-04-17" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-04-17" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cefcfba1-b670-40f7-b3c9-e3dda11f7b84" name="Default" comment="" />
+      <created>1523963767536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523963767536</updated>
+      <workItem from="1523963776148" duration="3567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3567000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16510417" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.28645834" side_tool="true" visible="true" weight="0.3066089" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983682" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.7135417" visible="true" weight="0.3066089" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/G:/html5-1710/the three/2018-04-17">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/App.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/App.js#App.css#73;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/App.js#Component#16;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/App.js#React#7;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/App.js#logo#49;</node>
+            <node x="" y="">$PROJECT_DIR$/src/App.js#Component#16;G:/html5-1710/the three/2018-04-17/src/App.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/App.test.js#App#68;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/App.test.js#React#7;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/App.test.js#ReactDOM#34;</node>
+            <node x="" y="">$PROJECT_DIR$/src/App.test.js#App#68;G:/html5-1710/the three/2018-04-17/src/App.test.js#React#7;G:/html5-1710/the three/2018-04-17/src/App.test.js#ReactDOM#34;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/ExecutionEnvironment.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/FileSizeReporter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/InterpolateHtmlPlugin.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/ModuleScopePlugin.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-dev-server/lib/Server.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/WatchMissingNodeModulesPlugin.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/jest/babelTransform.js#babelJest#229;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/build.js#FileSizeReporter#1215;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#appPackage#3190;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#chalk#776;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#checkRequiredFiles#975;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#config#876;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#env.js#713;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#formatWebpackMessages#1049;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#fs#808;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#path#746;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#paths#933;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#printBuildError#1285;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#printHostingInstructions#1129;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/build.js#webpack#840;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/camelizeStyleName.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/checkRequiredFiles.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/extract-text-webpack-plugin/dist/cjs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/clearConsole.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/containsNode.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/utils/createJestConfig.js#chalk#255;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/utils/createJestConfig.js#fs#229;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/utils/createJestConfig.js#overrides#1840;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/utils/createJestConfig.js#paths#287;</node>
+            <node x="" y="">sync;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/eject.js#chalk#611;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#createJestConfig#685;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#execSync#570;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#fs#497;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#inquirer#747;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#path#529;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#paths#643;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/eject.js#spawnSync#813;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/emptyFunction.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/emptyObject.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/env.js#config#1436;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/env.js#fs#254;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/env.js#index.d.ts#1404;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/env.js#path#280;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/env.js#paths#310;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/errorOverlayMiddleware.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/promise/lib/es6-extensions.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/eslintFormatter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/jest/fileTransform.js#path#254;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/formatWebpackMessages.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/getActiveElement.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/hyphenateStyleName.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/ignoredFiles.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/index.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/dotenv-expand/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/public/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/object-assign/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/index.js#App#90;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/index.js#React#7;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/index.js#ReactDOM#34;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/index.js#index.css#61;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/template/src/index.js#registerServiceWorker#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/babel-jest/build/index.js</node>
+            <node x="" y="">polyfill;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/case-sensitive-paths-webpack-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/postcss-flexbugs-fixes/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack-manifest-plugin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sw-precache-webpack-plugin/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chalk/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/node_modules/resolve/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/index.js#react-dom.development.js#1318;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/index.js#react-dom.production.min.js#1244;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js#react.development.js#149;G:/html5-1710/the three/2018-04-17/node_modules/react/index.js#react.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.js#App#68;G:/html5-1710/the three/2018-04-17/src/index.js#React#7;G:/html5-1710/the three/2018-04-17/src/index.js#ReactDOM#34;G:/html5-1710/the three/2018-04-17/src/index.js#registerServiceWorker#93;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/init.js#chalk#559;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/init.js#fs#497;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/init.js#path#529;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/init.js#spawn#591;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/init.js#templateDependencies#3097;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/inquirer.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/invariant.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jest/build/jest.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/logo.svg</node>
+            <node x="" y="">config;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/memoizeStringOnly.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/noopServiceWorkerMiddleware.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/openBrowser.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/paths.js#fs#284;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/paths.js#getPublicUrl#955;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/paths.js#ownPackageJson#3098;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/paths.js#path#254;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/paths.js#url#310;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/polyfills.js#enable#513;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/polyfills.js#es6-extensions.js#584;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/polyfills.js#fetch.js#671;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/polyfills.js#index.js#835;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/polyfills.js#polyfill#1054;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/printBuildError.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dev-utils/printHostingInstructions.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js#React#437;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#_assign#397;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#camelizeStyleName#803;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#checkPropTypes#744;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#emptyFunction#467;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#emptyObject#522;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#hyphenateStyleName#573;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#invariant#350;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#memoizeStringOnly#638;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.development.js#warning#701;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js#index.js#387;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#p#273;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#q#305;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#t#332;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#w#351;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#x#387;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#y#421;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#z#462;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js#index.js#355;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js#React#434;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#_assign#347;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#camelizeStyleName#800;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#checkPropTypes#741;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#emptyFunction#464;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#emptyObject#519;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#hyphenateStyleName#570;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#invariant#387;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#memoizeStringOnly#635;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#stream#863;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.development.js#warning#698;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#aa#459;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#ba#500;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#p#270;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#r#297;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#t#329;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#w#348;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#x#384;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#y#418;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js#ExecutionEnvironment#598;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#React#433;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#ReactDOM#463;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#_assign#346;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#emptyFunction#543;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#invariant#386;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.development.js#warning#500;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js#index.js#383;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#f#269;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#h#296;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#m#328;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#n#347;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#p#370;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#q#406;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#index.js#351;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#ReactDOM#364;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#_assign#491;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#emptyFunction#531;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#invariant#401;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#warning#448;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#index.js#401;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#k#287;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#l#310;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#m#342;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#n#369;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#index.js#369;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js#ExecutionEnvironment#455;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#React#382;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#_assign#524;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#camelizeStyleName#961;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#checkPropTypes#619;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#containsNode#792;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#emptyFunction#564;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#emptyObject#845;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#getActiveElement#678;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#hyphenateStyleName#896;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#invariant#335;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#shallowEqual#739;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.development.js#warning#412;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js#index.js#372;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js#A#401;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#C#428;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#ba#305;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#ea#338;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#fa#464;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#ha#504;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#ja#540;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#ka#576;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/cjs/react-dom.production.min.js#m#358;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js#index.js#388;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/bin/react-scripts.js#spawn#225;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/cjs/react.development.js#Component#45693;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#_assign#331;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#checkPropTypes#567;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#emptyFunction#512;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#emptyObject#418;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#invariant#371;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.development.js#warning#469;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js#m#254;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.production.min.js#n#281;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.production.min.js#p#313;G:/html5-1710/the three/2018-04-17/node_modules/react/cjs/react.production.min.js#q#347;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/template/src/registerServiceWorker.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/registerServiceWorker.js</node>
+            <node x="" y="">enable;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.browser.js#react-dom-server.browser.development.js#168;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/server.browser.js#react-dom-server.browser.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.js#server.node.js#32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/server.node.js#react-dom-server.node.development.js#165;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/server.node.js#react-dom-server.node.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/shallowEqual.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/start.js#WebpackDevServer#842;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#WebpackDevServerUtils.js#1103;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#appName#2526;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#chalk#774;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#checkRequiredFiles#960;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#clearConsole#898;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#config#1261;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#createDevServerConfig#1317;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#env.js#715;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#fs#748;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#openBrowser#1159;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#paths#1219;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#proxySetting#2816;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/start.js#webpack#806;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/test-utils.js#react-dom-test-utils.development.js#164;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/test-utils.js#react-dom-test-utils.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/test.js#createJestConfig#1060;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/test.js#env.js#730;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/test.js#jest#763;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/test.js#path#1122;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/test.js#paths#1152;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/scripts/test.js#resolve#1647;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.development.js#182;G:/html5-1710/the three/2018-04-17/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.production.min.js#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/url/url.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fbjs/lib/warning.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js#CaseSensitivePathsPlugin#424;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#HtmlWebpackPlugin#366;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#InterpolateHtmlPlugin#505;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#ModuleScopePlugin#749;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#WatchMissingNodeModulesPlugin#585;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#autoprefixer#254;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#eslintFormatter#681;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#getClientEnvironment#821;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#index.js#9503;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#path#300;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#paths#868;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.dev.js#webpack#330;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.prod.js#ExtractTextPlugin#424;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#HtmlWebpackPlugin#366;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#InterpolateHtmlPlugin#549;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#ManifestPlugin#490;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#ModuleScopePlugin#768;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#SWPrecacheWebpackPlugin#629;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#autoprefixer#254;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#eslintFormatter#700;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#getClientEnvironment#874;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#index.js#10338;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#path#300;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#paths#840;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpack.config.prod.js#webpack#330;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/webpack/lib/webpack.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/config/webpackDevServer.config.js#config#490;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpackDevServer.config.js#errorOverlayMiddleware#254;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpackDevServer.config.js#ignoredFiles#428;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpackDevServer.config.js#noopServiceWorkerMiddleware#336;G:/html5-1710/the three/2018-04-17/node_modules/react-scripts/config/webpackDevServer.config.js#paths#538;</node>
+            <node x="" y="">%PUBLIC_URL%/favicon.ico</node>
+            <node x="" y="">%PUBLIC_URL%/manifest.json</node>
+            <node x="" y="">homepage;</node>
+            <node x="" y="">execSync;</node>
+            <node x="" y="">fs</node>
+            <node x="" y="">path</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-scripts/scripts/eject.js#jest#6383;name;proxy;</node>
+            <node x="" y="">stream</node>
+            <node x="" y="">dependencies;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.12186454849498328" x="1657.5" y="2382.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../三阶段2/2018-4-17/作业/2-6.JS简易年历/zns_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

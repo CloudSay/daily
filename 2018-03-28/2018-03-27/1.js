@@ -1,0 +1,5 @@
+let a= require("./mode/a")
+console.log(a)
+console.log(a.aa)
+console.log(a.bb)
+console.log(a.obj.fn())
