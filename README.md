@@ -48,8 +48,8 @@
 _ _ _
 
 ## 5、链接
-![图片](http://pic1.win4000.com/wallpaper/9/5450ae2fdef8a.jpg)
-[src]:http://pic1.win4000.com/wallpaper/9/5450ae2fdef8a.jpg
+![图片](http://pic1.win4000.com/wallpaper/9/5450ae2fdef8a)
+[src]:http://pic1.win4000.com/wallpaper/9/5450ae2fdef8a
 这里是![src]
 
 ### 行内式
